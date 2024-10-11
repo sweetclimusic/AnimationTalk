@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57F684B52CA1A4A800A7501F /* ImplicitAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F684B42CA1A4A800A7501F /* ImplicitAnimation.swift */; };
 		57FFC7662C9B01C3003B0D12 /* AnimationTalkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFC7652C9B01C3003B0D12 /* AnimationTalkApp.swift */; };
-		57FFC7682C9B01C3003B0D12 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFC7672C9B01C3003B0D12 /* ContentView.swift */; };
+		57FFC7682C9B01C3003B0D12 /* PhaseAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFC7672C9B01C3003B0D12 /* PhaseAnimator.swift */; };
 		57FFC76A2C9B01C5003B0D12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FFC7692C9B01C5003B0D12 /* Assets.xcassets */; };
 		57FFC76D2C9B01C5003B0D12 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FFC76C2C9B01C5003B0D12 /* Preview Assets.xcassets */; };
+		57FFC7B42C9C1D45003B0D12 /* KeyFrameAnimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFC7B32C9C1D45003B0D12 /* KeyFrameAnimatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57F684B42CA1A4A800A7501F /* ImplicitAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimation.swift; sourceTree = "<group>"; };
 		57FFC7622C9B01C3003B0D12 /* AnimationTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FFC7652C9B01C3003B0D12 /* AnimationTalkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTalkApp.swift; sourceTree = "<group>"; };
-		57FFC7672C9B01C3003B0D12 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		57FFC7672C9B01C3003B0D12 /* PhaseAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseAnimator.swift; sourceTree = "<group>"; };
 		57FFC7692C9B01C5003B0D12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57FFC76C2C9B01C5003B0D12 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57FFC7B32C9C1D45003B0D12 /* KeyFrameAnimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyFrameAnimatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				57FFC7652C9B01C3003B0D12 /* AnimationTalkApp.swift */,
-				57FFC7672C9B01C3003B0D12 /* ContentView.swift */,
+				57FFC7672C9B01C3003B0D12 /* PhaseAnimator.swift */,
+				57F684B42CA1A4A800A7501F /* ImplicitAnimation.swift */,
+				57FFC7B32C9C1D45003B0D12 /* KeyFrameAnimatorView.swift */,
 				57FFC7692C9B01C5003B0D12 /* Assets.xcassets */,
 				57FFC76B2C9B01C5003B0D12 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57FFC7682C9B01C3003B0D12 /* ContentView.swift in Sources */,
+				57FFC7B42C9C1D45003B0D12 /* KeyFrameAnimatorView.swift in Sources */,
+				57F684B52CA1A4A800A7501F /* ImplicitAnimation.swift in Sources */,
+				57FFC7682C9B01C3003B0D12 /* PhaseAnimator.swift in Sources */,
 				57FFC7662C9B01C3003B0D12 /* AnimationTalkApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
